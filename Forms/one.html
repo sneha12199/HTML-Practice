@@ -1,8 +1,8 @@
 <html>
     <head>
-        <title>forms
+        <h1>Ragistration form
 
-        </title>
+        </h1>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     </head>
 
@@ -11,21 +11,56 @@
             <label >
                 name 
             </label>
-            <input type="text" /><br><br />
+            <input type="text"  placeholder="name"/><br><br />
 
             <label >
                 email id
             </label>
-            <input type="text"/><br><br/>
+            <input type="text" placeholder="email.id"/><br><br/>
 
 <label >
     mobile no
 </label>
-<input type="number"/><br><br/>
+<input type="number" placeholder="mobile no."/><br><br/>
 <label>
     address
 </label>
-<textarea name="address"  cols="20" rows="4"></textarea><br><br/>
+<textarea name="address"  placeholder="address" cols="20" rows="4"></textarea><br><br/>
+<label>
+    state 
+</label>
+<!--<select>
+    <input type="text"  placeholder="choose a state"/>
+    <option>UP</option>
+    <option>MPUP</option>
+    <option>TS</option>
+    <option>TN</option>
+    <option>KA</option>
+    <option>KL</option>
+    <option value="">Select state</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+</select>-->
+<!--- India states -->
+<select id="country-state" name="country-state">
+    <option value="">Select state</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+    <option value="CT">Chhattisgarh</option>
+    <option value="DN">Dadra and Nagar Haveli</option>
+    <option value="DD">Daman and Diu</option>
+    <option value="DL">Delhi</option>
+    <option value="GA">Goa</option>
+    <option value="GJ">Gujarat</option>
+    <option value="HR">Haryana</option>
+</select>
+<br><br>
 <button>login</button><br/><br/>
 
 
